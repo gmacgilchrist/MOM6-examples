@@ -26,7 +26,7 @@
             months = 0,
             days   = 1,
             hours  = 0,
-            current_date = 2013,1,1,0,0,0
+            current_date = 1958,1,1,0,0,0
             calendar = 'julian',
             dt_cpld = 3600,
             dt_atmos = 3600,
