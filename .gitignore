@@ -26,3 +26,6 @@ seaice.stats.*
 *.ignore
 # Ignore lcov files
 lcov.*
+# gmac defined
+core
+*.res*
