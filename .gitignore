@@ -20,6 +20,7 @@ fort.20
 *.nc
 *.nc.*
 RESTART
+OUTPUT
 ocean.stats
 ocean.stats.*
 seaice.stats
