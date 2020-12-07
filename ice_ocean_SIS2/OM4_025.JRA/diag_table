@@ -108,6 +108,10 @@ OM4_025.JRA
 "ocean_model_z",  "Th_tendency_vert_remap",       "Th_tendency_vert_remap",               "ocean_zstr_heat%4yr_%2mo", "all", "mean", "none", 2
 "ocean_model_z",  "internal_heat_heat_tendency",  "internal_heat_heat_tendency",          "ocean_zstr_heat%4yr_%2mo", "all", "mean", "none", 2
 
+# Shortwave flux on z*
+"ocean_model_z",  "rsdo",                         "rsdo"                                  "ocean_zstr_heat%4yr_%2mo", "all", "mean", "none", 2
+"ocean_model_z",  "rsdoabsorb",                   "rsdoabsorb"                            "ocean_zstr_heat%4yr_%2mo", "all", "mean", "none", 2
+
 # SNAP
 "ocean_model_z",  "temp",                         "temp"                                  "ocean_zstr_snap%4yr_%2mo", "all", "none", "none", 2
 
