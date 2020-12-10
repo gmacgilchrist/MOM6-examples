@@ -82,6 +82,7 @@
     verbose=.false.,
     verbose_hrs=24,
     traj_sample_hrs=24,
+    traj_write_hrs=960,
     debug=.false.,
     really_debug=.false.,
     use_slow_find=.true.,
