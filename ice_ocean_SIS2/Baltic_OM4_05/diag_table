@@ -213,8 +213,8 @@ Baltic_OM4_05
 # Heat
 "ocean_model",  "T_adx_2d",	                "T_adx_2d",                             "ocean_monthly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model",  "T_ady_2d",	                "T_ady_2d",                             "ocean_monthly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model",  "T_diffx_2d",	                "T_diffx_2d",                           "ocean_monthly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model",  "T_diffy_2d",	                "T_diffy_2d",                           "ocean_monthly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model",  "T_diffx_2d",	                "T_diffx_2d",                           "ocean_monthly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model",  "T_diffy_2d",	                "T_diffy_2d",                           "ocean_monthly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
 "ocean_model",  "S_adx_2d",	                "S_adx_2d",                             "ocean_monthly_natv_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model",  "S_ady_2d",	                "S_ady_2d",                             "ocean_monthly_natv_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
@@ -331,8 +331,8 @@ Baltic_OM4_05
 # Heat
 "ocean_model_rho2",  "T_adx_2d",	        "T_adx_2d",                      	    "ocean_monthly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model_rho2",  "T_ady_2d",	        "T_ady_2d",                      	    "ocean_monthly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_rho2",  "T_diffx_2d",	        "T_diffx_2d",                    	    "ocean_monthly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_rho2",  "T_diffy_2d",	        "T_diffy_2d",                    	    "ocean_monthly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_rho2",  "T_diffx_2d",	        "T_diffx_2d",                    	    "ocean_monthly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_rho2",  "T_diffy_2d",	        "T_diffy_2d",                    	    "ocean_monthly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
 "ocean_model_rho2",  "S_adx_2d",	        "S_adx_2d",                      	    "ocean_monthly_rho2_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model_rho2",  "S_ady_2d",	        "S_ady_2d",                      	    "ocean_monthly_rho2_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
@@ -436,31 +436,31 @@ Baltic_OM4_05
 # ----------------------------------------- #
 # Advective and diffusive fluxes
 # Heat
-"ocean_model_z",  "T_adx",	                "T_adx", 	            	          "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_ady",	                "T_ady",                                  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffx",	                "T_diffx",                       	  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffy",	                "T_diffy",                       	  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_adx",	                "T_adx", 	            	          "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_ady",	                "T_ady",                                  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_diffx",	                "T_diffx",                       	  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_diffy",	                "T_diffy",                       	  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
-"ocean_model_z",  "S_adx",	                "S_adx",                         	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_ady",	                "S_ady",                         	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffx",	                "S_diffx",                       	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffy",	                "S_diffy",                       	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_adx",	                "S_adx",                         	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_ady",	                "S_ady",                         	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffx",	                "S_diffx",                       	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffy",	                "S_diffy",                       	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Depth-integzd advective and diffusive fluxes
 # Heat
-"ocean_model_z",  "T_adx_2d",	        	"T_adx_2d",                 	   	  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_ady_2d",	        	"T_ady_2d",                  	   	  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffx_2d",	        	"T_diffx_2d",                 	    	  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffy_2d",	        	"T_diffy_2d",                  	    	  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_adx_2d",	        	"T_adx_2d",                 	   	  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_ady_2d",	        	"T_ady_2d",                  	   	  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_z",  "T_diffx_2d",	        	"T_diffx_2d",                 	    	  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_z",  "T_diffy_2d",	        	"T_diffy_2d",                  	    	  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
-"ocean_model_z",  "S_adx_2d",	        	"S_adx_2d",                    	    	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_ady_2d",	        	"S_ady_2d",                    	    	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffx_2d",	        	"S_diffx_2d",                  	    	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffy_2d",	        	"S_diffy_2d",                  	    	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_adx_2d",	        	"S_adx_2d",                    	    	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_ady_2d",	        	"S_ady_2d",                    	    	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffx_2d",	        	"S_diffx_2d",                  	    	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffy_2d",	        	"S_diffy_2d",                  	    	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Depth-integzd tendencies due to advection and isoneutral diffusion
-"ocean_model_z",  "T_advection_xy_2d",       	"T_advection_xy_2d",           	    	  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "opottemppmdiff_2d",       	"opottemppmdiff_2d",           	    	  "ocean_monthly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_advection_xy_2d",       	"S_advection_xy_2d",           	    	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "osaltpmdiff_2d", 	        "osaltpmdiff_2d",	         	  "ocean_monthly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_advection_xy_2d",       	"T_advection_xy_2d",           	    	  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "opottemppmdiff_2d",       	"opottemppmdiff_2d",           	    	  "ocean_monthly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_advection_xy_2d",       	"S_advection_xy_2d",           	    	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "osaltpmdiff_2d", 	        "osaltpmdiff_2d",	         	  "ocean_monthly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 
 #####################################################
 # DAILY #
@@ -570,8 +570,8 @@ Baltic_OM4_05
 # Heat
 "ocean_model",  "T_adx_2d",	                "T_adx_2d",                             "ocean_daily_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model",  "T_ady_2d",	                "T_ady_2d",                             "ocean_daily_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model",  "T_diffx_2d",	                "T_diffx_2d",                           "ocean_daily_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model",  "T_diffy_2d",	                "T_diffy_2d",                           "ocean_daily_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model",  "T_diffx_2d",	                "T_diffx_2d",                           "ocean_daily_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model",  "T_diffy_2d",	                "T_diffy_2d",                           "ocean_daily_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
 "ocean_model",  "S_adx_2d",	                "S_adx_2d",                             "ocean_daily_natv_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model",  "S_ady_2d",	                "S_ady_2d",                             "ocean_daily_natv_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
@@ -688,8 +688,8 @@ Baltic_OM4_05
 # Heat
 "ocean_model_rho2",  "T_adx_2d",	        "T_adx_2d",                      	    "ocean_daily_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model_rho2",  "T_ady_2d",	        "T_ady_2d",                      	    "ocean_daily_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_rho2",  "T_diffx_2d",	        "T_diffx_2d",                    	    "ocean_daily_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_rho2",  "T_diffy_2d",	        "T_diffy_2d",                    	    "ocean_daily_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_rho2",  "T_diffx_2d",	        "T_diffx_2d",                    	    "ocean_daily_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_rho2",  "T_diffy_2d",	        "T_diffy_2d",                    	    "ocean_daily_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
 "ocean_model_rho2",  "S_adx_2d",	        "S_adx_2d",                      	    "ocean_daily_rho2_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model_rho2",  "S_ady_2d",	        "S_ady_2d",                      	    "ocean_daily_rho2_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
@@ -793,31 +793,31 @@ Baltic_OM4_05
 # ----------------------------------------- #
 # Advective and diffusive fluxes
 # Heat
-"ocean_model_z",  "T_adx",	                "T_adx", 	            	          "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_ady",	                "T_ady",                                  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffx",	                "T_diffx",                       	  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffy",	                "T_diffy",                       	  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_adx",	                "T_adx", 	            	          "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_ady",	                "T_ady",                                  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_diffx",	                "T_diffx",                       	  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_diffy",	                "T_diffy",                       	  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
-"ocean_model_z",  "S_adx",	                "S_adx",                         	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_ady",	                "S_ady",                         	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffx",	                "S_diffx",                       	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffy",	                "S_diffy",                       	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_adx",	                "S_adx",                         	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_ady",	                "S_ady",                         	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffx",	                "S_diffx",                       	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffy",	                "S_diffy",                       	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Depth-integzd advective and diffusive fluxes
 # Heat
-"ocean_model_z",  "T_adx_2d",	        	"T_adx_2d",                 	   	  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_ady_2d",	        	"T_ady_2d",                  	   	  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffx_2d",	        	"T_diffx_2d",                 	    	  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffy_2d",	        	"T_diffy_2d",                  	    	  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_adx_2d",	        	"T_adx_2d",                 	   	  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_ady_2d",	        	"T_ady_2d",                  	   	  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_z",  "T_diffx_2d",	        	"T_diffx_2d",                 	    	  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_z",  "T_diffy_2d",	        	"T_diffy_2d",                  	    	  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
-"ocean_model_z",  "S_adx_2d",	        	"S_adx_2d",                    	    	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_ady_2d",	        	"S_ady_2d",                    	    	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffx_2d",	        	"S_diffx_2d",                  	    	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffy_2d",	        	"S_diffy_2d",                  	    	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_adx_2d",	        	"S_adx_2d",                    	    	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_ady_2d",	        	"S_ady_2d",                    	    	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffx_2d",	        	"S_diffx_2d",                  	    	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffy_2d",	        	"S_diffy_2d",                  	    	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Depth-integzd tendencies due to advection and isoneutral diffusion
-"ocean_model_z",  "T_advection_xy_2d",       	"T_advection_xy_2d",           	    	  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "opottemppmdiff_2d",       	"opottemppmdiff_2d",           	    	  "ocean_daily_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_advection_xy_2d",       	"S_advection_xy_2d",           	    	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "osaltpmdiff_2d", 	        "osaltpmdiff_2d",	         	  "ocean_daily_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_advection_xy_2d",       	"T_advection_xy_2d",           	    	  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "opottemppmdiff_2d",       	"opottemppmdiff_2d",           	    	  "ocean_daily_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_advection_xy_2d",       	"S_advection_xy_2d",           	    	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "osaltpmdiff_2d", 	        "osaltpmdiff_2d",	         	  "ocean_daily_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 
 #####################################################
 # TIMESTEP #
@@ -927,8 +927,8 @@ Baltic_OM4_05
 # Heat
 "ocean_model",  "T_adx_2d",	                "T_adx_2d",                             "ocean_hourly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model",  "T_ady_2d",	                "T_ady_2d",                             "ocean_hourly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model",  "T_diffx_2d",	                "T_diffx_2d",                           "ocean_hourly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model",  "T_diffy_2d",	                "T_diffy_2d",                           "ocean_hourly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model",  "T_diffx_2d",	                "T_diffx_2d",                           "ocean_hourly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model",  "T_diffy_2d",	                "T_diffy_2d",                           "ocean_hourly_natv_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
 "ocean_model",  "S_adx_2d",	                "S_adx_2d",                             "ocean_hourly_natv_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model",  "S_ady_2d",	                "S_ady_2d",                             "ocean_hourly_natv_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
@@ -1045,8 +1045,8 @@ Baltic_OM4_05
 # Heat
 "ocean_model_rho2",  "T_adx_2d",	        "T_adx_2d",                      	    "ocean_hourly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model_rho2",  "T_ady_2d",	        "T_ady_2d",                      	    "ocean_hourly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_rho2",  "T_diffx_2d",	        "T_diffx_2d",                    	    "ocean_hourly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_rho2",  "T_diffy_2d",	        "T_diffy_2d",                    	    "ocean_hourly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_rho2",  "T_diffx_2d",	        "T_diffx_2d",                    	    "ocean_hourly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_rho2",  "T_diffy_2d",	        "T_diffy_2d",                    	    "ocean_hourly_rho2_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
 "ocean_model_rho2",  "S_adx_2d",	        "S_adx_2d",                      	    "ocean_hourly_rho2_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 "ocean_model_rho2",  "S_ady_2d",	        "S_ady_2d",                      	    "ocean_hourly_rho2_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
@@ -1150,29 +1150,29 @@ Baltic_OM4_05
 # ----------------------------------------- #
 # Advective and diffusive fluxes
 # Heat
-"ocean_model_z",  "T_adx",	                "T_adx", 	            	          "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_ady",	                "T_ady",                                  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffx",	                "T_diffx",                       	  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffy",	                "T_diffy",                       	  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_adx",	                "T_adx", 	            	          "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_ady",	                "T_ady",                                  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_diffx",	                "T_diffx",                       	  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_diffy",	                "T_diffy",                       	  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
-"ocean_model_z",  "S_adx",	                "S_adx",                         	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_ady",	                "S_ady",                         	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffx",	                "S_diffx",                       	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffy",	                "S_diffy",                       	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_adx",	                "S_adx",                         	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_ady",	                "S_ady",                         	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffx",	                "S_diffx",                       	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffy",	                "S_diffy",                       	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Depth-integzd advective and diffusive fluxes
 # Heat
-"ocean_model_z",  "T_adx_2d",	        	"T_adx_2d",                 	   	  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_ady_2d",	        	"T_ady_2d",                  	   	  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffx_2d",	        	"T_diffx_2d",                 	    	  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "T_diffy_2d",	        	"T_diffy_2d",                  	    	  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_adx_2d",	        	"T_adx_2d",                 	   	  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_ady_2d",	        	"T_ady_2d",                  	   	  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_z",  "T_diffx_2d",	        	"T_diffx_2d",                 	    	  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+#"ocean_model_z",  "T_diffy_2d",	        	"T_diffy_2d",                  	    	  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Salt
-"ocean_model_z",  "S_adx_2d",	        	"S_adx_2d",                    	    	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_ady_2d",	        	"S_ady_2d",                    	    	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffx_2d",	        	"S_diffx_2d",                  	    	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_diffy_2d",	        	"S_diffy_2d",                  	    	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_adx_2d",	        	"S_adx_2d",                    	    	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_ady_2d",	        	"S_ady_2d",                    	    	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffx_2d",	        	"S_diffx_2d",                  	    	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_diffy_2d",	        	"S_diffy_2d",                  	    	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 # Depth-integzd tendencies due to advection and isoneutral diffusion
-"ocean_model_z",  "T_advection_xy_2d",       	"T_advection_xy_2d",           	    	  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "opottemppmdiff_2d",       	"opottemppmdiff_2d",           	    	  "ocean_hourly_z_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "S_advection_xy_2d",       	"S_advection_xy_2d",           	    	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
-"ocean_model_z",  "osaltpmdiff_2d", 	        "osaltpmdiff_2d",	         	  "ocean_hourly_z_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "T_advection_xy_2d",       	"T_advection_xy_2d",           	    	  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "opottemppmdiff_2d",       	"opottemppmdiff_2d",           	    	  "ocean_hourly_zstr_heat%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "S_advection_xy_2d",       	"S_advection_xy_2d",           	    	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
+"ocean_model_z",  "osaltpmdiff_2d", 	        "osaltpmdiff_2d",	         	  "ocean_hourly_zstr_salt%4yr_%2mo_%2dy", "all", "mean", "none", 2
 
