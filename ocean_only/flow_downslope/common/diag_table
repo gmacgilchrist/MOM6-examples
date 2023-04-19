@@ -13,6 +13,7 @@
 "ocean_model","e","e","prog","all",.false.,"none",2
 "ocean_model","temp","temp","prog","all",.false.,"none",2
 "ocean_model","salt","salt","prog","all",.false.,"none",2
+"ocean_model","rhopot0","rhopot0","prog","all",.false.,"none",2
 
 #=============================================================================================
 #
