@@ -1,6 +1,8 @@
 "MOM resting experiment"
 1 1 1 0 0 0
-"prog",     1 ,"hours",1,"days","Time"
+"prog",6,"hours",1,"hours","Time"
+"prog_z",6,"hours",1,"hours","Time"
+"prog_rho0",6,"hours",1,"hours","Time"
 
 #This is the field section of the diag_table.
 
@@ -9,12 +11,35 @@
 
 "ocean_model","u","u","prog","all",.false.,"none",2
 "ocean_model","v","v","prog","all",.false.,"none",2
-"ocean_model","h","h","prog","all",.false.,"none",1
+"ocean_model","h","h","prog","all",.false.,"none",2
 "ocean_model","e","e","prog","all",.false.,"none",2
 "ocean_model","temp","temp","prog","all",.false.,"none",2
 "ocean_model","salt","salt","prog","all",.false.,"none",2
+"ocean_model","rhoinsitu","rhoinsitu","prog","all",.false.,"none",2
 "ocean_model","rhopot0","rhopot0","prog","all",.false.,"none",2
+"ocean_model","rhopot2","rhopot2","prog","all",.false.,"none",2
 
+# z output
+"ocean_model_z","temp","temp","prog_z","all",.false.,"none",2
+"ocean_model_z","salt","salt","prog_z","all",.false.,"none",2
+"ocean_model_z","u","u","prog_z","all",.false.,"none",2
+"ocean_model_z","v","v","prog_z","all",.false.,"none",2
+"ocean_model_z","h","h","prog_z","all",.false.,"none",2
+"ocean_model_z","e","e","prog_z","all",.false.,"none",2
+"ocean_model_z","rhopot0","rhopot0","prog_z","all",.false.,"none",2
+"ocean_model_z","rhopot2","rhopot2","prog_z","all",.false.,"none",2
+"ocean_model_z","rhoinsitu","rhoinsitu","prog_z","all",.false.,"none",2
+
+# rho0 output
+"ocean_model_rho0","temp","temp","prog_rho0","all",.false.,"none",2
+"ocean_model_rho0","salt","salt","prog_rho0","all",.false.,"none",2
+"ocean_model_rho0","u","u","prog_rho0","all",.false.,"none",2
+"ocean_model_rho0","v","v","prog_rho0","all",.false.,"none",2
+"ocean_model_rho0","h","h","prog_rho0","all",.false.,"none",2
+"ocean_model_rho0","e","e","prog_rho0","all",.false.,"none",2
+"ocean_model_rho0","rhopot0","rhopot0","prog_rho0","all",.false.,"none",2
+"ocean_model_rho0","rhopot2","rhopot2","prog_rho0","all",.false.,"none",2
+"ocean_model_rho0","rhoinsitu","rhoinsitu","prog_rho0","all",.false.,"none",2
 #=============================================================================================
 #
 #====> This file can be used with diag_manager/v2.0a (or higher) <====
