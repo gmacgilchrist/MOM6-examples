@@ -218,7 +218,7 @@ DIAG_COORDS = "z Z ZSTAR", "rho0 RHO0 RHO" !
                                 ! definition used for diagnostics. Each string is of the form
                                 ! "MODULE_SUFFIX,PARAMETER_SUFFIX,COORDINATE_NAME".
 DIAG_COORD_P_REF_RHO0 = 0.0
-DIAG_COORD_NEEDS_SORTING_RHO0 = True
+! DIAG_COORD_NEEDS_SORTING_RHO0 = True
 DIAG_COORD_DEF_RHO0 = "FILE:targetlayers_rho0.nc,interfaces=interfaces" ! default = "WOA09"
                                 ! Determines how to specify the coordinate resolution. Valid options are:
                                 !  PARAM       - use the vector-parameter DIAG_COORD_RES_RHO2
